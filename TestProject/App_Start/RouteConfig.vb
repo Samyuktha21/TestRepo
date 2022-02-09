@@ -6,6 +6,7 @@ Imports System.Web.Mvc
 Imports System.Web.Routing
 
 Public Module RouteConfig
+    'adde change
     Public Sub RegisterRoutes(ByVal routes As RouteCollection)
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
 
